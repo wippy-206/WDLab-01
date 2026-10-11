@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bass Shop - Cửa Hàng Guitar Bass</title>
+</head>
+<body>
+    <header>
+        <h1>Bass Shop - Cửa Hàng Guitar Bass Chuyên Nghiệp</h1>
+        <p>Cung cấp các dòng đàn guitar bass 4 dây, 5 dây chính hãng và phụ kiện âm thanh.</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">Về chúng tôi</a></li>
+                <li><a href="#products">Sản phẩm nổi bật</a></li>
+                <li><a href="#specifications">Bảng thông số & Báo giá</a></li>
+                <li><a href="#contact">Đăng ký tư vấn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <!-- Section 1: Giới thiệu (About) -->
+        <section id="about">
+            <h2>Về chúng tôi</h2>
+            <article>
+                <p>
+                    <strong>Bass Shop</strong> là không gian dành riêng cho những tay bass đam mê giai điệu trầm. 
+                    Chúng tôi cung cấp đầy đủ các mẫu đàn từ tập luyện nhập môn đến trình diễn sân khấu chuyên nghiệp.
+                </p>
+                <figure>
+                    <img src="images/bass shop.jpg" alt="Không gian trưng bày đàn guitar bass tại cửa hàng Bass Shop" width="350">
+                    <figcaption><em>Không gian phòng thử đàn tại cửa hàng</em></figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Section 2: Sản phẩm nổi bật (Products) -->
+        <section id="products">
+            <h2>Sản phẩm nổi bật</h2>
+            
+            <article>
+                <h3>1. Fender American Ultra II Jazz Bass V Guitar - Sinister Red</h3>
+                <p>
+                    Dòng bass huyền thoại mang lại chất âm <em>sáng, rõ nét</em> và linh hoạt cho nhiều thể loại từ Funk, Jazz đến Rock.
+                </p>
+                <figure>
+                    <img src="images/fender.jpg" alt="Đàn guitar bass Fender Player Jazz Bass 4 dây màu đỏ" width="300">
+                    <figcaption><em>Fender Jazz Bass 5 dây chính hãng</em></figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h3>2. 2020's Music-Man Stingray Electric Bass </h3>
+                <p>
+                    Thiết kế hiện đại 4 dây với mạch active/passive linh hoạt, cho dải âm trầm <strong>sâu chắc và uy lực</strong>.
+                </p>
+                <figure>
+                    <img src="images/musicman" alt="Đàn guitar bass 4 dây thân gỗ màu đen đỏ" width="300">
+                    <figcaption><em>Music-man phiên bản 4 dây</em></figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Section 3: Bảng dữ liệu thực tế (Table) -->
+        <section id="specifications">
+            <h2>Bảng thông số & Báo giá</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Tên model</th>
+                        <th>Số dây</th>
+                        <th>Kiểu Pickup</th>
+                        <th>Gỗ thân (Body)</th>
+                        <th>Giá bán tham khảo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fender American Ultra II Jazz Bass V Guitar</td>
+                        <td>5 dây</td>
+                        <td>Passive Single-Coil</td>
+                        <td>Alder</td>
+                        <td>65.500.000 VNĐ</td>
+                    </tr>
+                    <tr>
+                        <td>2020's Music-Man Stingray Electric Bass</td>
+                        <td>4 dây</td>
+                        <td>Active Humbucker</td>
+                        <td>Mahogany</td>
+                        <td>60.200.000 VNĐ</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Section 4: Form liên hệ tĩnh (label for khớp input id) -->
+        <section id="contact">
+            <h2>Đăng ký tư vấn chọn đàn</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="fullname">Họ và tên:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Nhập họ và tên..." required>
+                </p>
+
+                <p>
+                    <label for="phone">Số điện thoại:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="Ví dụ: 0901234567" required>
+                </p>
+
+                <p>
+                    <label for="bass-model">Dòng đàn quan tâm:</label><br>
+                    <input type="text" id="bass-model" name="bass-model" placeholder="Ví dụ: Bass 4 dây cho người mới">
+                </p>
+
+                <p>
+                    <label for="notes">Ghi chú hoặc câu hỏi:</label><br>
+                    <textarea id="notes" name="notes" rows="4" cols="35" placeholder="Để lại yêu cầu của bạn..."></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Gửi đăng ký</button>
+                    <button type="reset">Nhập lại</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Bass Shop. Địa chỉ: 1010 ABC, TP.HCM.</p>
+        <p><a href="#about">Quay lại đầu trang</a></p>
+    </footer>
+
+</body>
+</html>
